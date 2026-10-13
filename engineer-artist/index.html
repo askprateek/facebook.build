@@ -50,6 +50,8 @@
   .h em { color: var(--red); font-weight: 400; }
   .kick { margin: 0 0 0.875rem; font: 700 0.8125rem/1.3 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--red); }
   .byline { margin: 1.25rem 0 0; font: 0.8125rem/1.4 var(--sans); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+  .concept { margin: clamp(1.75rem, 4vw, 2.5rem) 0 0; }
+  .concept img { display: block; width: 100%; height: auto; outline: 1px solid oklch(0 0 0 / 0.1); outline-offset: -1px; }
   .thread { padding-block: clamp(1.75rem, 4vw, 2.5rem) 1rem; border-top: 1px solid var(--ink); margin-top: clamp(1.75rem, 4vw, 2.5rem); }
   .thread p { margin: 0 0 1.5rem; font-size: clamp(1.125rem, 1.8vw, 1.3125rem); line-height: 1.5; }
   .thread p:first-child::first-letter { float: left; font-size: 3.4em; line-height: 0.85; padding: 0.05em 0.1em 0 0; color: var(--red); font-weight: 700; }
@@ -70,7 +72,10 @@
     <h1 class="h in" style="--i:0">The engineer and <em>the artist.</em></h1>
     <p class="byline in" style="--i:1">By Prateek Kumar</p>
   </header>
-  <article class="thread in" style="--i:2">
+  <figure class="concept in" style="--i:2">
+    <img src="engineer-artist-concept.webp" alt="One creator holds a drafting compass and paintbrush, joining a vast crowd and a few art viewers beneath a red infinity stroke." width="1400" height="700" loading="eager">
+  </figure>
+  <article class="thread in" style="--i:3">
     <p>An engineer is an alter ego of an artist. Both are creative humans and the difference is in their creations. Engineer&rsquo;s creation is objective whereas artist creation is subjective.</p>
     <p>Engineers impacts masses whereas artists impacts special but limited audience. You can argue that movies and music is different but the tools for mass production and distribution of these two art form are created by engineers.</p>
     <p>Engineers creations are valued above zero and below infinitely. Value of artists work is in extremes. It&rsquo;s either zero or infinite.(Take painting sfor example. For some they mean the world for other, just a piece of paper)</p>
